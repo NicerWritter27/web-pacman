@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Thank you</title>
+    <link rel="shortcut icon" type="image/jpg" href="Favicon_Image_Location"/>
+  </head>
+  <body>
+    <div id='container'>
+    <div id = "main_block">
+       <section id="promo-head"> 
+          <div>
+            Thank you for installing Sudoku Game game
+          </div>
+      </section>
+      <div id = 'image_block'>
+        <img src = '/images/sudoku/01.png' />
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+<style>
+body {
+text-align: center;
+}
+#container {
+  position: absolute;
+  top: 50%;
+  margin-top: -285px;
+  /* half of #content height*/
+  left: 0;
+  width: 100%;
+}
+#main_block {
+  width: 440px;
+  height: 360px;
+  box-shadow: 0 35px 80px 0 rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  background-color: var(--white);
+  border: solid 1px #e6e6e6;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 100px;*/
+}
+
+ #promo-head {
+ 	  width: 440px;
+	  height: 140px;
+	  background-color: #4a90e2;
+	  box-shadow: inset 0 -1px 0 0 #4281c9;
+	  position: relative;
+ }
+ #promo-head div {
+ 	  width:349px;
+ 	  word-wrap:break-word;
+ 	  padding: 0px 45.5px;
+ 	  position:absolute; 
+ 	  top:50%; 
+ 	  margin: 0 auto;
+	  transform: translateY(-50%);
+	  -moz-transform: translateY(-50%);
+	  -webkit-transform: translateY(-50%);
+	  max-height:100%;
+	  overflow:hidden;
+	  font-family: Roboto;
+	  font-size: 28px;
+	  font-weight: bold;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1.43;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: #ffffff;
+ }
+
+ .countdown_container {
+  width:100%;
+  margin-top: 26px;
+  text-align: center;
+}
+
+.countdown_note {
+	font-family: Roboto;
+	font-size: 16px;
+	margin-top: 3px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #242424;
+}
+
+#countdown {
+  position: relative;
+  margin: auto;
+  margin-top: 27px;
+  height: 230px;
+  width: 230px;
+  text-align: center;
+}
+
+#countdown-number {
+
+  font-family: Roboto;
+  font-size: 126px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 230px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a90e2;
+}
+
+#go_now {
+	width: 320px;
+	height: 60px;
+	border-radius: 30px;
+	background-image: linear-gradient(to bottom, #5aa6ff, #4a90e2);
+	box-shadow: 0 7px 16px 0 rgba(74, 144, 226, 0.34);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+    margin-top: 30px;
+    padding: 18.5px;
+    cursor: pointer;
+    border:0;
+}
+
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+#circle_container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 230px;
+  height: 230px;
+  transform: rotateY(-180deg) rotateZ(-90deg);
+}
+#grey_circle {
+  stroke-linecap: round;
+  stroke-width: 6px;
+  stroke: #4a90e2;
+  fill: none;
+}
+#moving_circle {
+  stroke-dasharray: 700px;
+  stroke-dashoffset: 0px;
+  stroke-linecap: round;
+  stroke-width: 7px;
+  stroke: #f2f2f2;
+  fill: none;
+  animation: countdown 5s linear forwards;
+}
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+  }
+  to {
+    stroke-dashoffset: 700px;
+  }
+}
+</style>
