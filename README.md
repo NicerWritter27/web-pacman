@@ -33,8 +33,8 @@ Scripts: "app/scripts", and at "build" folder
 The "Thank you" folder is for the thank you page for installing the Opera addon
 <br>This game is not offline, to play it offline, see the Opera addon at the "Links" section
 <br>(Only for Opera browsers)
+<br>The website was biult with [GitHub Pages](https://pages.github.com/)
 ## Links
 [Click here to play](https://nicerwritter27.github.io/web-pacman/)
 <br>[Offline Opera addon](https://addons.opera.com/en/extensions/details/pacman/)
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U474RHW)
+<br>[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U474RHW)
